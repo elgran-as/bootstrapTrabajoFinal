@@ -1,0 +1,15 @@
+
+
+
+.irArriba {
+    position: fixed;
+    bottom: 50px;
+    right: 3%;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}

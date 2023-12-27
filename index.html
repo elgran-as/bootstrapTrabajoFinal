@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ariel Salvia">
+  <meta name="description" content="Portfolio de Frontend Professional developer">
+  <meta name="keywords" content="HMTL, CSS, Javascript, Bootstrap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/iconos/logo.svg">
+  <title>Trabajo final - Ariel Salvia</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark border-bottom border-body border-success" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="row navbar-brand" href="#">
+        <img class="btn btn-outline-success m-2" src="./assets/iconos/logo.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler border border-success" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon border border-success"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-success" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#sobreMi">Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#programas">Programas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="#contactos">Contactos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./assets/imagenes/bendy-man-developer-writing-programming-code.gif" class="d-block mx-lg-auto img-fluid" alt="Frontend" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Professional
+          <br>
+          <span class="text-success">Front End</span>
+          <br>
+          Developer
+        </h1>
+        <p class="lead">
+          Crear y mantener la estructura HTML de los sitios web y aplicaciones.
+          Aplicar estilos<mark>CSS</mark>a los elementos<mark>HTML</mark>para darles apariencia y estilo.
+          Implementar animaciones y transiciones utilizando JavaScript o bibliotecas específicas.
+          Garantizar que los sitios web y aplicaciones sean accesibles y cumplan con las normas de accesibilidad web
+          (WCAG).
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <h4>
+            <a href="https://github.com/elgran-as"><i class="bi bi-github btn btn-outline-dark"></i></a>
+            <i class="bi bi-linkedin btn btn-outline-primary"></i>
+            <i class="bi bi-instagram btn btn-outline-danger"></i>
+            <i class="bi bi-twitter-x btn btn-outline-dark "></i>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="irArriba">
+    <a href="./index.html">
+      <img src="./assets/imagenes/flecha2.png" alt="ir a arriba">
+    </a>
+  </div>
+  <div id="carrusel" class="carousel slide row d-flex justify-content-center bg-dark" data-bs-ride="carousel">
+    <h2 class="text-success d-flex justify-content-center m-4">Aprendizaje</h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./assets/imagenes/Certificado_1.png" class="d-block w-100" alt="certificado">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assets/imagenes/Certificados_2.png" class="d-block w-100" alt="certificado">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./assets/imagenes/Certificados_3.png" class="d-block w-100" alt="certicado">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+  <article class="row d-flex justify-content-center bg-dark" id="sobreMi">
+    <h2 class="col-md-12 d-flex justify-content-center text-success bg-dark mt-5">Sobre Mi</h2>
+    <p class="col-md-6 bg-dark text-light p-5 d-flex justify-content-center">La conversión de diseñador gráfico a
+      desarrollador web se logra mediante la adopción de nuevas habilidades y tecnologías en el ámbito del desarrollo
+      web. A lo largo del año, eh estado adquiriendo conocimientos en HTML, CSS, JavaScript y Bootstrap, y busca
+      continuar perfeccionando mis habilidades en estos campos.
+      <br>
+      El uso de herramientas como Adobe DreamWeaver, Fireworks y Flash fue fundamental en el aprendizaje inicial. Estas
+      herramientas me permitieron comprender cómo funcionan los conceptos básicos de diseño y desarrollo web. A medida
+      que continúo expandiendo mis conocimientos en HTML, CSS, JavaScript y Bootstrap, pretendo seguir aplicando las
+      actualizaciones y mejoras en el campo del desarrollo web.
+      <br>
+      La conversión de diseñador gráfico a desarrollador web no solo implica adquirir nuevas habilidades, sino también
+      cambiar mi enfoque de trabajo. En lugar de centrarme únicamente en la creación de diseños gráficos, debo ahora
+      enfocarme en la construcción de sitios web funcionales y estéticamente atractivos. Para ello, puedo contar con mis
+      habilidades en diseño y conocimientos en HTML, CSS, JavaScript y Bootstrap.
+    </p>
+    <p class="col-md-6 bg-dark text-light p-5 d-flex justify-content-center">
+      En resumen, la transformación de diseñador gráfico a desarrollador web representa un cambio significativo en mi
+      carrera. A través de la adopción de nuevas habilidades y la adquisición de experiencia en el desarrollo web, busco
+      consolidar mi posición como desarrollador competente y exitoso.
+      <br>
+      El titulo de Professional Frontend Developer es un paso muy importante conseguido en UTN e-learning; los pasos a
+      seguir son estudiar React y otras librerias para poder seguir avanzado, conseguir un empleo y continuar con
+      los estudios.
+    </p>
+  </article>
+  <div class="d-flex justify-content-center mt-4">
+    <img src="./assets/imagenes/giphy.gif" alt="programador" width="240" height="240" loading="lazy">
+  </div>
+  <picture class="row d-flex justify-content-center bg-light m-3" id="programas">
+    <h2 class="text-success d-flex justify-content-center m-4">Programas</h2>
+    
+    <div class="card" style="width: 9rem ; height: 11rem">
+      <img src="./assets/iconos/dw.svg" class="card-img align-items-center mt-1" alt="DreamWeaver">
+      <a href="#" class="btn btn-success m-1">
+        <h7 class="d-flex justify-content-center">DreamWeaver</h7>
+      </a>
+    </div>
+    <div class="card" style="width: 9rem ; height: 11rem">
+      <img src="./assets/iconos/fw.svg" class="card-img align-items-center mt-1" alt="Fireworks">
+      <a href="#" class="btn btn-warning m-1">Fireworks</a>
+    </div>
+    <div class="card" style="width: 9rem ; height: 11rem">
+      <img src="./assets/iconos/flash.svg" class="card-img align-items-center mt-1 " alt="Flash">
+      <a href="#" class="btn btn-danger m-1">Flash</a>
+    </div>
+    <div class="card" style="width: 9rem ; height: 11rem">
+      <img src="./assets/iconos/hmtl.svg" class="card-img align-items-center mt-1 " alt="html">
+      <a href="#" class="btn btn-danger m-1">Html</a>
+    </div>
+    <div class="card" style="width: 9rem ; height: 11rem">
+      <img src="./assets/iconos/css.svg" class="card-img align-items-center mt-1" alt="Css">
+      <a href="#" class="btn btn-primary m-1">Css</a>
+    </div>
+    <div class="card" style="width: 9rem ;height: 11rem">
+      <img src="./assets/iconos/js.svg" class="card-img align-items-center mt-1" alt="JavaScript">
+      <a href="#" class="btn btn-warning m-1">JavaScript</a>
+    </div>
+    <div class="card" style="width: 9rem ;height: 11rem">
+      <img src="./assets/iconos/bs.svg" class="card-img align-items-center mt-1 " alt="Bootstrap">
+      <a href="#" class="btn btn-info m-1">Bootstrap</a>
+    </div>
+  </picture>
+  <main class="row d-flex justify-content-center bg-dark" id="proyectos">
+    <h2 class="text-success d-flex justify-content-center m-4">Proyectos</h2>
+    <img class="col-sm-3 m-2" src="./assets/imagenes/pagina1.jpg" alt="">
+
+    <img class="col-sm-3 m-2" src="./assets/imagenes/pagina2.jfif" alt="">
+
+    <img class="col-sm-3 m-2" src="./assets/imagenes/pagina3.png" alt="">
+
+    <img class="col-sm-3 m-2" src="./assets/imagenes/pagina4.jpg" alt="">
+  </main>
+
+  <p class="placeholder-glow">
+    <span class="placeholder col-12 w-100 h-5 bg-success"></span>
+  </p>
+
+  <section class="container bg-light" id="contactos">
+    <div class="container ">
+      <h4 class="text-form text-success m-4">Hace tu consulta o pedido.</h4>
+      <form class="bg-light row">
+        <label class="text-success" for="nombre">Nombre:</label>
+        <input class="bg-dark text-light rounded border border-success" type="text" id="nombre" name="nombre"
+          placeholder="Ingresa tu nombre" required>
+
+        <label class="text-success" for="telefono">Teléfono:</label>
+        <input class="bg-dark text-light roundedborder border-success" type="tel" id="telefono" name="telefono"
+          placeholder="Ingresa tu teléfono" required>
+
+        <label class="text-success" for="email">Correo electrónico:</label>
+        <input class="bg-dark text-light rounded border border-success" type="email" id="email" name="email"
+          placeholder="Ingresa tu correo electrónico" required>
+
+        <label class="text-success" for="comentarios">Comentarios:</label>
+        <textarea class="bg-dark text-light rounded border border-success" id="comentarios" name="comentarios"
+          placeholder="Escribe tus comentarios"></textarea>
+
+        <input class="bg-light text-success mt-1 rounded border border-success" type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+
+  <footer class="row">
+    <div class="col-md-12 bg-dark m-2 p-5 d-flex align-items-center">
+      <img class="btn btn-outline-success m-3 " src="./assets/imagenes/logo1.svg" alt="logo">
+      <span class="d-flex justify-content-center text-success">copyright®ASDEV<br>by Ariel
+        Salvia
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+<script src="./script.js"></script>
+
+</html>
